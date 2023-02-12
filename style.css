@@ -195,7 +195,7 @@ p {
     text-decoration: none;
     background-image: linear-gradient(90deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     color:var(--clr-very-light-grayish-blue);
-    padding:0.8rem 5rem;
+    padding:0.8rem 4rem;
     border-radius: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -214,7 +214,22 @@ p {
     background-image: none;
 }
 
+@media(max-width:1050px){
+    
+    .container {
+        width:95%;
+    }
+    .learn-more a  {
+        padding:0.8rem 2rem;
+    
+    }
+}
+
 @media(max-width:768px){
+    .container {
+        width:55%;
+    }
+    
     body {
         height:auto;
     }
@@ -234,6 +249,12 @@ p {
     }
 }
 
+@media(max-width:610px){
+    .learn-more a  {
+        padding:0.8rem 2.2rem;
+    
+    }
+}
 @media(max-width:430px){
     body {
     
@@ -251,5 +272,8 @@ p {
         gap:1.5rem;
     }
 
+    .learn-more a  {
+        padding:0.8rem 20%;
     
+    }
 }
